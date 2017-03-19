@@ -6,7 +6,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Slabo 27px', serif;
-  color: darkgrey;
+  color: #8e8e8e;
 }
 
 body, p {
@@ -15,5 +15,15 @@ body, p {
 
 body {
   margin-left: 20%;
-  border-left: solid 1px grey;
+  border-left: solid 4px lightgrey;
+  padding-left: 3%;
+  margin-top: 3%;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding-left: 0 !important;
+    padding: 10px !important;
+    border-left: 0;
+  }
 }
