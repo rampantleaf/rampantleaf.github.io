@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Slabo+27px');
+
+body {
+  background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Slabo 27px', serif;
+  color: darkgrey;
+}
+
+body, p {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin-left: 20%;
+  border-left: solid 1px grey;
+}
